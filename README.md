@@ -27,7 +27,7 @@ Can customize colors and code styles
 
 ## Showcase
 <p float="left">
-<img width="412" src="https://user-images.githubusercontent.com/????.png">
+<img src="screenshot.png">
 </div></p>
 
 ## Installation
