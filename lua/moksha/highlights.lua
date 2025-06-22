@@ -162,7 +162,7 @@ if vim.api.nvim_call_function("has", { "nvim-0.8" }) == 1 then
         ["@keyword.conditional"] = hl.syntax.Conditional,
         ["@keyword.directive"] = hl.syntax.Keyword,
         ["@keyword.exception"] = hl.syntax.Exception,
-        ["@keyword.function"] = hl.syntax.Function,
+        ["@keyword.function"] = hl.syntax.Keyword,
         ["@keyword.import"] = hl.syntax.Include,
         ["@keyword.operator"] = hl.syntax.Include,
         ["@keyword.repeat"] = hl.syntax.Keyword,
