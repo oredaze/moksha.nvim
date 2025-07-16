@@ -68,7 +68,7 @@ hl.common = {
     SpecialKey = { fg = c.blue },
     Pmenu = { fg = c.fg, bg = c.bg_medium },
     PmenuSbar = { fg = c.none, bg = c.none },
-    PmenuSel = { fg = c.none, bg = c.select },
+    PmenuSel = { fg = c.fg, bg = c.select },
     WildMenu = { fg = c.bg_base, bg = c.fg },
     PmenuThumb = { fg = c.none, bg = c.grey },
     Question = { fg = c.yellow },
@@ -85,8 +85,8 @@ hl.common = {
     TabLineSel = { fg = c.fg, bg = c.bg_base },
     WinSeparator = { fg = c.brown, bg = c.bg_medium },
     VertSplit = { fg = c.brown, bg = c.bg_medium },
-    Visual = { fg = c.none, bg = c.select },
-    VisualNOS = { fg = c.none, bg = c.select, fmt = "underline" },
+    Visual = { fg = c.bg_dark, bg = c.search },
+    VisualNOS = { fg = c.none, bg = c.search, fmt = "underline" },
     QuickFixLine = { fg = c.blue, bg = c.bg_dark },
     ToolbarButton = { fg = c.fg, bg = c.bg_base, fmt = "bold" },
     FloatBorder = { fg = c.light_grey, bg = c.bg_medium },
@@ -427,7 +427,7 @@ hl.plugins.telescope = {
     TelescopeMatching = { fg = c.cyan, bg = c.none },
     TelescopeSelection = { bg = c.select },
     TelescopeSelectionCaret = { fg = c.red, bg = c.select },
-    TelescopeMultiSelection = { fg = c.pink },
+    TelescopeMultiSelection = { fg = c.yellow },
     TelescopeMultiIcon = { fg = c.light_grey },
 }
 
