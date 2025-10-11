@@ -89,8 +89,8 @@ hl.common = {
     VisualNOS = { fg = c.none, bg = c.search, fmt = "underline" },
     QuickFixLine = { fg = c.blue, bg = c.bg_dark },
     ToolbarButton = { fg = c.fg, bg = c.bg_base, fmt = "bold" },
-    FloatBorder = { fg = c.light_grey, bg = c.bg_light },
-    FloatTitle = { fg = c.light_grey, bg = c.bg_light },
+    FloatBorder = { fg = c.light_grey, bg = c.none },
+    FloatTitle = { fg = c.light_grey, bg = c.none },
     NormalFloat = { fg = c.fg, bg = c.bg_medium },
     Debug = { fg = c.brown },
     debugPC = { fg = c.bg_dark, bg = c.green },
@@ -446,8 +446,8 @@ hl.plugins.mini = {
     MiniFilesDirectory = hl.common.Directory,
     MiniFilesFile = { fg = c.fg },
     MiniFilesNormal = hl.common.NormalFloat,
-    MiniFilesTitle = { fg = c.light_grey, bg = c.bg_light },
-    MiniFilesTitleFocused = { fg = c.brown, bg = c.bg_light },
+    MiniFilesTitle = hl.common.FloatTitle,
+    MiniFilesTitleFocused = { fg = c.brown, bg = c.none },
 }
 
 hl.plugins.outline = {
