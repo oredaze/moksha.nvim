@@ -442,7 +442,7 @@ hl.plugins.dashboard = {
 hl.plugins.mini = {
     MiniFilesBorder = hl.common.FloatBorder,
     MiniFilesBorderModified = hl.syntax.Number,
-    MiniFilesCursorLine = hl.common.PmenuSel,
+    MiniFilesCursorLine = { fg = c.none, bg = c.select },
     MiniFilesDirectory = hl.common.Directory,
     MiniFilesFile = { fg = c.fg },
     MiniFilesNormal = hl.common.NormalFloat,
