@@ -455,6 +455,10 @@ hl.plugins.outline = {
     OutlineGuides = hl.common.Whitespace,
 }
 
+hl.plugins.colorful_winsep = {
+    ColorfulWinSep = hl.common.StatusLine,
+}
+
 hl.langs.markdown = {
     markdownH1 = { fg = c.orange, fmt = "bold" },
     markdownH2 = { fg = c.brown, fmt = "bold" },
