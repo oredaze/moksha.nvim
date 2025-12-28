@@ -459,6 +459,10 @@ hl.plugins.colorful_winsep = {
     ColorfulWinSep = hl.common.StatusLine,
 }
 
+hl.plugins.treesitter_context = {
+    TreesitterContext = { bg = c.bg_base },
+}
+
 hl.langs.markdown = {
     markdownH1 = { fg = c.orange, fmt = "bold" },
     markdownH2 = { fg = c.brown, fmt = "bold" },
