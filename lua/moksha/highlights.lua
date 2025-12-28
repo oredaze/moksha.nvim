@@ -460,7 +460,7 @@ hl.plugins.colorful_winsep = {
 }
 
 hl.plugins.treesitter_context = {
-    TreesitterContext = { bg = c.bg_base },
+    TreesitterContext = { bg = c.none },
 }
 
 hl.langs.markdown = {
