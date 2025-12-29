@@ -461,6 +461,7 @@ hl.plugins.colorful_winsep = {
 
 hl.plugins.treesitter_context = {
     TreesitterContext = { bg = c.none },
+    TreesitterContextSeparator = hl.common.Whitespace,
 }
 
 hl.langs.markdown = {
