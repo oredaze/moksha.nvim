@@ -62,7 +62,7 @@ hl.common = {
     IncSearch = { fg = c.bg_dark, bg = c.orange },
     Search = { fg = c.bg_dark, bg = c.search },
     Substitute = { fg = c.bg_dark, bg = c.green },
-    MatchParen = { fg = c.blue, bg = c.bg_dark, fmt = "bold" },
+    MatchParen = { fg = c.red, bg = c.black, fmt = "bold" },
     NonText = { fg = c.grey },
     Whitespace = { fg = c.dark_grey },
     SpecialKey = { fg = c.blue },
@@ -433,8 +433,8 @@ hl.plugins.telescope = {
 }
 
 hl.plugins.dashboard = {
-    DashboardProjectTitle = { fg = c.orage, bg = c.none },
-    DashboardMruTitle = { fg = c.orage, bg = c.none },
+    DashboardProjectTitle = { fg = c.orange, bg = c.none },
+    DashboardMruTitle = { fg = c.orange, bg = c.none },
     DashboardShortCut = hl.syntax.Exception,
     DashboardFooter = hl.syntax.Comment,
 }
@@ -456,7 +456,7 @@ hl.plugins.outline = {
 }
 
 hl.plugins.colorful_winsep = {
-    ColorfulWinSep = hl.common.StatusLine,
+    ColorfulWinSep = { fg = c.orange, bg = c.bg_light, fmt = "bold" },
 }
 
 hl.plugins.treesitter_context = {
