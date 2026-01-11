@@ -83,8 +83,8 @@ hl.common = {
     TabLine = { fg = c.light_grey, bg = c.bg_dark },
     TabLineFill = { fg = c.light_grey, bg = c.bg_light },
     TabLineSel = { fg = c.cream, bg = c.bg_base },
-    WinSeparator = { fg = c.light_grey, bg = c.bg_light },
-    VertSplit = { fg = c.light_grey, bg = c.bg_light },
+    WinSeparator = { fg = c.light_grey, bg = c.none },
+    VertSplit = { fg = c.light_grey, bg = c.none },
     Visual = { fg = c.bg_dark, bg = c.search },
     VisualNOS = { fg = c.none, bg = c.search, fmt = "underline" },
     QuickFixLine = { fg = c.blue, bg = c.bg_dark },
@@ -456,7 +456,7 @@ hl.plugins.outline = {
 }
 
 hl.plugins.colorful_winsep = {
-    ColorfulWinSep = { fg = c.orange, bg = c.bg_light, fmt = "bold" },
+    ColorfulWinSep = { fg = c.brown, bg = c.none, fmt = "bold" },
 }
 
 hl.plugins.treesitter_context = {
