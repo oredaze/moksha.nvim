@@ -85,7 +85,7 @@ hl.common = {
     TabLineSel = { fg = c.cream, bg = c.bg_base },
     WinSeparator = { fg = c.light_grey, bg = c.none },
     VertSplit = { fg = c.light_grey, bg = c.none },
-    Visual = { fg = c.bg_dark, bg = c.search },
+    Visual = { fg = c.bg_dark, bg = c.search, fmt = "bold" },
     VisualNOS = { fg = c.none, bg = c.search, fmt = "underline" },
     QuickFixLine = { fg = c.blue, bg = c.bg_dark },
     ToolbarButton = { fg = c.fg, bg = c.bg_base, fmt = "bold" },

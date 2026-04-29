@@ -1,8 +1,8 @@
 return {
 	dark = {
 		black = "#0A0A0A",
-		bg_base = "#171716",
-		bg_dark = "#0F0F0F",
+		bg_base = "#1d1813",
+		bg_dark = "#14110e",
 		bg_medium = "#141414",
 		bg_light = "#242424",
 		bg_red = "#45292E",
@@ -33,8 +33,8 @@ return {
 	},
 	medium = {
 		black = "#0A0A0A",
-		bg_base = "#171716",
-		bg_dark = "#0F0F0F",
+		bg_base = "#1d1813",
+		bg_dark = "#14110e",
 		bg_medium = "#141414",
 		bg_light = "#242424",
 		bg_red = "#45292E",
@@ -65,8 +65,8 @@ return {
 	},
 	light = {
 		black = "#0A0A0A",
-		bg_base = "#171716",
-		bg_dark = "#0F0F0F",
+		bg_base = "#1d1813",
+		bg_dark = "#14110e",
 		bg_medium = "#141414",
 		bg_light = "#242424",
 		bg_red = "#45292E",
