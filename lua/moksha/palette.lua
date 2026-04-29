@@ -1,10 +1,10 @@
 return {
 	dark = {
 		black = "#0A0A0A",
-		bg_base = "#1d1813",
+		bg_base = "#1a130e",
 		bg_dark = "#14110e",
 		bg_medium = "#141414",
-		bg_light = "#242424",
+		bg_light = "#2a2521",
 		bg_red = "#45292E",
 		bg_green = "#313630",
 		bg_blue = "#213338",
@@ -33,10 +33,10 @@ return {
 	},
 	medium = {
 		black = "#0A0A0A",
-		bg_base = "#1d1813",
+		bg_base = "#1a130e",
 		bg_dark = "#14110e",
 		bg_medium = "#141414",
-		bg_light = "#242424",
+		bg_light = "#2a2521",
 		bg_red = "#45292E",
 		bg_green = "#313630",
 		bg_blue = "#213338",
@@ -65,10 +65,10 @@ return {
 	},
 	light = {
 		black = "#0A0A0A",
-		bg_base = "#1d1813",
+		bg_base = "#1a130e",
 		bg_dark = "#14110e",
 		bg_medium = "#141414",
-		bg_light = "#242424",
+		bg_light = "#2a2521",
 		bg_red = "#45292E",
 		bg_green = "#313630",
 		bg_blue = "#213338",
