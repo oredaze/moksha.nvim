@@ -24,7 +24,7 @@ hl.common = {
     Normal = { fg = c.fg, bg = c.bg_base },
     Terminal = { fg = c.fg, bg = c.bg_dark },
     EndOfBuffer = { fg = c.blue, bg = c.none },
-    SignColumn = { fg = c.fg, bg = c.bg_dark },
+    SignColumn = { fg = c.fg, bg = c.none },
     LineNr = { fg = c.grey, bg = c.none },
     CursorLineNr = { fg = c.yellow, bg = c.none, fmt = "bold" },
     Folded = { fg = c.cream, bg = c.bg_medium },
@@ -335,24 +335,24 @@ hl.plugins.signify = {
 }
 
 hl.plugins.gitgutter = {
-    GitGutterAdd = { fg = c.green, bg = c.bg_dark },
-    GitGutterChange = { fg = c.blue, bg = c.bg_dark },
-    GitGutterDelete = { fg = c.red, bg = c.bg_dark },
-    GitGutterChangeDelete = { fg = c.blue, bg = c.bg_dark },
+    GitGutterAdd = { fg = c.green, bg = c.none },
+    GitGutterChange = { fg = c.blue, bg = c.none },
+    GitGutterDelete = { fg = c.red, bg = c.none },
+    GitGutterChangeDelete = { fg = c.blue, bg = c.none },
 }
 
 hl.plugins.gitsigns = {
-    GitSignsAdd = { fg = c.green, bg = c.bg_dark },
-    GitSignsChange = { fg = c.blue, bg = c.bg_dark },
-    GitSignsDelete = { fg = c.red, bg = c.bg_dark },
-    GitSignsTopdelete = { fg = c.red, bg = c.bg_dark },
-    GitSignsChangedelete = { fg = c.pink, bg = c.bg_dark },
-    GitSignsUntracked = { fg = c.cyan, bg = c.bg_dark },
+    GitSignsAdd = { fg = c.green, bg = c.none },
+    GitSignsChange = { fg = c.blue, bg = c.none },
+    GitSignsDelete = { fg = c.red, bg = c.none },
+    GitSignsTopdelete = { fg = c.red, bg = c.none },
+    GitSignsChangedelete = { fg = c.pink, bg = c.none },
+    GitSignsUntracked = { fg = c.cyan, bg = c.none },
     GitSignsAddInline = { fg = c.none, bg = c.bg_green },
     GitSignsChangeLnInline = { fg = c.none, bg = c.bg_blue },
     GitSignsDeleteInline = { fg = c.none, bg = c.bg_red },
-    GitSignsAddPreview = { fg = c.green, bg = c.bg_dark },
-    GitSignsDeletePreview = { fg = c.red, bg = c.bg_red },
+    GitSignsAddPreview = { fg = c.green, bg = c.none },
+    GitSignsDeletePreview = { fg = c.red, bg = c.none },
 }
 
 hl.plugins.matchup = {
