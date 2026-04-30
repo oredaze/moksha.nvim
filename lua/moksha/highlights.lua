@@ -68,7 +68,7 @@ hl.common = {
     SpecialKey = { fg = c.blue },
     Pmenu = { fg = c.fg, bg = c.bg_medium },
     PmenuSbar = { fg = c.none, bg = c.none },
-    PmenuSel = { fg = c.fg, bg = c.select },
+    PmenuSel = { fg = c.fg, bg = c.select, fmt = "bold" },
     WildMenu = { fg = c.bg_base, bg = c.fg },
     PmenuThumb = { fg = c.none, bg = c.grey },
     Question = { fg = c.yellow, bg = c.none },
@@ -105,7 +105,7 @@ hl.syntax = {
     Number = { fg = c.pink },
     Boolean = { fg = c.blue, fmt = cfg.code_style.bool },
     Float = { fg = c.pink },
-    Identifier = { fg = c.fg, fmt = cfg.code_style.variables },
+    Identifier = { fg = c.fg, fmt = "none" },
     Function = { fg = c.green, fmt = cfg.code_style.functions },
     Statement = { fg = c.orange },
     Conditional = { fg = c.orange, fmt = cfg.code_style.keywords },
@@ -426,8 +426,8 @@ hl.plugins.telescope = {
     TelescopeTitle = hl.common.FloatTitle,
     TelescopePromptPrefix = { fg = c.light_grey, bg = c.none, fmt = "bold" },
     TelescopeMatching = { fg = c.cyan, bg = c.none },
-    TelescopeSelection = { bg = c.select },
-    TelescopeSelectionCaret = { fg = c.red, bg = c.select },
+    TelescopeSelection = { bg = c.select, fmt = "bold" },
+    TelescopeSelectionCaret = { fg = c.red, bg = c.select, fmt = "bold" },
     TelescopeMultiSelection = { fg = c.yellow },
     TelescopeMultiIcon = { fg = c.light_grey },
 }
@@ -442,7 +442,7 @@ hl.plugins.dashboard = {
 hl.plugins.mini = {
     MiniFilesBorder = hl.common.FloatBorder,
     MiniFilesBorderModified = hl.syntax.Number,
-    MiniFilesCursorLine = { fg = c.none, bg = c.select },
+    MiniFilesCursorLine = { fg = c.none, bg = c.select, fmt = "bold" },
     MiniFilesDirectory = hl.common.Directory,
     MiniFilesFile = { fg = c.fg },
     MiniFilesNormal = hl.common.NormalFloat,
@@ -515,7 +515,7 @@ hl.langs.vim = {
     vimHiBang = { fg = c.brown },
     vimSet = { fg = c.yellow },
     vimMapModKey = { fg = c.orange },
-    vimVar = { fg = c.fg, fmt = cfg.code_style.variables },
+    vimVar = { fg = c.fg, fmt = "none" },
     vimCommentTitle = { fg = c.light_grey, fmt = cfg.code_style.comments },
 }
 

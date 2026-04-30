@@ -49,8 +49,7 @@ local default_config = {
         macros = 'bold,italic',
         strings = 'italic',
         types = 'italic',
-        tags = 'bold',
-        variables = 'none'
+        tags = 'bold'
     },
 
     -- Custom Highlights --
