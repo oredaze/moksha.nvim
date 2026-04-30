@@ -53,8 +53,8 @@ hl.common = {
     DiffFile = { fg = c.cyan },
     DiffIndexLine = { fg = c.grey },
     Directory = { fg = c.blue, fmt = "bold" },
-    ErrorMsg = { fg = c.red, bg = c.bg_medium },
-    WarningMsg = { fg = c.yellow, bg = c.bg_medium },
+    ErrorMsg = { fg = c.red, bg = c.none },
+    WarningMsg = { fg = c.yellow, bg = c.none },
     MoreMsg = { fg = c.cyan, fmt = "bold" },
     ModeMsg = { fg = c.pink, fmt = "bold" },
     MsgArea = { fg = c.none, bg = c.none },
@@ -71,7 +71,7 @@ hl.common = {
     PmenuSel = { fg = c.fg, bg = c.select },
     WildMenu = { fg = c.bg_base, bg = c.fg },
     PmenuThumb = { fg = c.none, bg = c.grey },
-    Question = { fg = c.yellow },
+    Question = { fg = c.yellow, bg = c.none },
     SpellBad = { fg = c.none, fmt = "undercurl", sp = c.red },
     SpellCap = { fg = c.none, fmt = "undercurl", sp = c.light_grey },
     SpellLocal = { fg = c.none, fmt = "undercurl", sp = c.blue },
@@ -362,7 +362,7 @@ hl.plugins.matchup = {
 }
 
 hl.plugins.marks = {
-    MarkSignHL = { fg = c.brown, bg = c.bg_dark, fmt = "bold" },
+    MarkSignHL = { fg = c.purple, bg = c.none, fmt = "bold" },
     MarkSignNumHL = hl.common.LineNr,
     MarkVirtTextHL = hl.plugins.lsp.DiagnosticHint,
 }
