@@ -1,6 +1,6 @@
 local M = {}
 
-M.styles_list = { 'dark', 'medium', 'light' }
+M.styles_list = { 'dark', 'light' }
 
 ---Change moksha option (vim.g.moksha_config.option)
 ---It can't be changed directly by modifying that field due to a Neovim lua bug with global variables (moksha_config is a global variable)
@@ -33,7 +33,7 @@ end
 
 local default_config = {
     -- Main options --
-    style = 'medium',    -- choose between 'dark', 'medium', 'light'
+    style = 'dark', -- 'dark' or 'light'
     toggle_style_key = nil,
     toggle_style_list = M.styles_list,
     term_colors = true,      -- if true enable the terminal
