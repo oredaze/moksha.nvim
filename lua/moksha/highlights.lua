@@ -121,7 +121,7 @@ hl.syntax = {
     PreCondit = { fg = c.yellow },
     Type = { fg = c.cyan, fmt = cfg.code_style.types },
     StorageClass = { fg = c.cyan, fmt = cfg.code_style.types },
-    Structure = { fg = c.cyan },
+    Structure = { fg = c.cyan, fmt = "none" },
     Typedef = { fg = c.cyan, fmt = cfg.code_style.types },
     Special = { fg = c.purple },
     SpecialChar = { fg = c.purple, fmt = cfg.code_style.chars },
