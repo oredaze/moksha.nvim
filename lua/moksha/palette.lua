@@ -1,7 +1,7 @@
 return {
 	dark = {
 		black = "#14110e",
-		bg_base = "#1a130e",
+		bg_base = "#1c1917",
 		bg_dark = "#14110e",
 		bg_medium = "#201c18",
 		bg_light = "#2b2622",
@@ -33,7 +33,7 @@ return {
 	},
 	light = {
 		black = "#14110e",
-		bg_base = "#1a130e",
+		bg_base = "#1c1917",
 		bg_dark = "#14110e",
 		bg_medium = "#201c18",
 		bg_light = "#2b2622",
