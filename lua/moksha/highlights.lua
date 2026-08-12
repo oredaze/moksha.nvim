@@ -467,9 +467,9 @@ hl.plugins.treesitter_context = {
 }
 
 hl.langs.markdown = {
-    markdownH1 = { fg = c.orange, fmt = "bold" },
-    markdownH2 = { fg = c.brown, fmt = "bold" },
-    markdownH3 = { fg = c.yellow, fmt = "bold" },
+    markdownH1 = { fg = c.red, fmt = "bold" },
+    markdownH2 = { fg = c.orange, fmt = "bold" },
+    markdownH3 = { fg = c.brown, fmt = "bold" },
     markdownH4 = { fg = c.yellow, fmt = "bold" },
     markdownH5 = { fg = c.yellow, fmt = "bold" },
     markdownH6 = { fg = c.yellow, fmt = "bold" },
