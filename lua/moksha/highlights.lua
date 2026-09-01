@@ -113,7 +113,7 @@ hl.syntax = {
     Conditional = { fg = c.orange, fmt = cfg.code_style.keywords },
     Repeat = { fg = c.orange, fmt = cfg.code_style.keywords },
     Label = { fg = c.red },
-    Operator = { fg = c.yellow },
+    Operator = { fg = c.fg },
     Keyword = { fg = c.orange, fmt = cfg.code_style.keywords },
     Exception = { fg = c.red, fmt = cfg.code_style.exception },
     PreProc = { fg = c.yellow },
@@ -256,20 +256,20 @@ hl.plugins.lsp = {
     LspCxxHlSkippedRegion = { fg = c.grey },
     LspCxxHlSkippedRegionBeginEnd = { fg = c.red },
 
-    DiagnosticError = { fg = c.diag_red, bg = c.bg_dark, fmt = "italic" },
-    DiagnosticWarn = { fg = c.diag_brown, bg = c.bg_dark, fmt = "italic" },
-    DiagnosticInfo = { fg = c.diag_blue, bg = c.bg_dark, fmt = "italic" },
-    DiagnosticHint = { fg = c.diag_grey, bg = c.bg_dark, fmt = "italic" },
+    DiagnosticError = { fg = c.diag_red, bg = c.none, fmt = "none" },
+    DiagnosticWarn = { fg = c.diag_brown, bg = c.none, fmt = "none" },
+    DiagnosticInfo = { fg = c.diag_blue, bg = c.none, fmt = "none" },
+    DiagnosticHint = { fg = c.diag_grey, bg = c.none, fmt = "none" },
 
     DiagnosticVirtualTextError = { fg = c.diag_red, bg = c.bg_medium, fmt = "italic" },
     DiagnosticVirtualTextWarn = { fg = c.diag_brown, bg = c.bg_medium, fmt = "italic" },
     DiagnosticVirtualTextInfo = { fg = c.diag_blue, bg = c.bg_medium, fmt = "italic" },
     DiagnosticVirtualTextHint = { fg = c.diag_grey, bg = c.bg_medium, fmt = "italic" },
 
-    DiagnosticUnderlineError = { fg = c.none, bg = c.none, fmt = "none", sp = c.red },
-    DiagnosticUnderlineWarn = { fg = c.none, bg = c.none, fmt = "none", sp = c.brown },
-    DiagnosticUnderlineInfo = { fg = c.none, bg = c.none, fmt = "none", sp = c.blue },
-    DiagnosticUnderlineHint = { fg = c.none, bg = c.none, fmt = "none", sp = c.diag_grey },
+    DiagnosticUnderlineError = { fg = c.none, bg = c.none, fmt = "undercurl", sp = c.red },
+    DiagnosticUnderlineWarn = { fg = c.none, bg = c.none, fmt = "undercurl", sp = c.brown },
+    DiagnosticUnderlineInfo = { fg = c.none, bg = c.none, fmt = "undercurl", sp = c.blue },
+    DiagnosticUnderlineHint = { fg = c.none, bg = c.none, fmt = "undercurl", sp = c.diag_grey },
 
     LspReferenceText = { bg = c.bg_light },
     LspReferenceWrite = { bg = c.bg_light },
@@ -327,6 +327,7 @@ hl.plugins.whichkey = {
     WhichKey = hl.syntax.Statement,
     WhichKeyGroup = hl.syntax.Function,
     WhichKeyTitle = hl.common.FloatBorder,
+    WhichKeyBorder = hl.common.FloatBorder,
 }
 
 hl.plugins.signify = {
@@ -393,6 +394,11 @@ hl.plugins.undotree = {
     UndotreeBranch = { fg = c.yellow },
     UndotreeCurrent = { fg = c.cyan },
     UndotreeSavedSmall = { fg = c.blue },
+}
+
+hl.plugins.neotree = {
+    NeoTreeExpander = { fg = c.grey },
+    NeoTreeRootName = { fg = c.brown }
 }
 
 -- comment
