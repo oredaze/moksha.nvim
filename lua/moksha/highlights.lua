@@ -68,9 +68,9 @@ hl.common = {
     SpecialKey = { fg = c.blue },
     Pmenu = { fg = c.fg, bg = c.bg_medium },
     PmenuSbar = { fg = c.none, bg = c.none },
-    PmenuSel = { fg = c.fg, bg = c.select, fmt = "bold" },
+    PmenuSel = { fg = c.yellow, bg = c.select, fmt = "bold" },
     WildMenu = { fg = c.bg_base, bg = c.fg },
-    PmenuThumb = { fg = c.none, bg = c.grey },
+    PmenuThumb = { fg = c.none, bg = c.dark_grey },
     Question = { fg = c.yellow, bg = c.none },
     SpellBad = { fg = c.none, fmt = "undercurl", sp = c.red },
     SpellCap = { fg = c.none, fmt = "undercurl", sp = c.light_grey },
@@ -293,6 +293,10 @@ hl.plugins.lsp.LspDiagnosticsVirtualTextInformation = hl.plugins.lsp.DiagnosticV
 hl.plugins.lsp.LspDiagnosticsVirtualTextHint = hl.plugins.lsp.DiagnosticVirtualTextHint
 
 hl.plugins.blink = {
+    BlinkCmpMenuBorder = hl.common.FloatBorder,
+    BlinkCmpDocBorder = hl.common.Whitespace,
+    BlinkCmpSignatureHelpBorder = hl.common.Whitespace,
+    BlinkCmpScrollBarThumb = hl.common.PmenuThumb,
     BlinkCmpLabel = { fg = c.fg },
     BlinkCmpLabelDeprecated = { fg = c.light_grey, fmt = "strikethrough" },
     BlinkCmpLabelMatch = { fg = c.cyan },
