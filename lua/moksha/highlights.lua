@@ -76,7 +76,7 @@ hl.common = {
     SpellCap = { fg = c.none, fmt = "undercurl", sp = c.light_grey },
     SpellLocal = { fg = c.none, fmt = "undercurl", sp = c.blue },
     SpellRare = { fg = c.none, fmt = "undercurl", sp = c.pink },
-    StatusLine = { fg = c.cream, bg = c.bg_light },
+    StatusLine = { fg = c.none, bg = c.bg_light },
     StatusLineTerm = { fg = c.cream, bg = c.bg_light },
     StatusLineNC = { fg = c.grey, bg = c.bg_light },
     StatusLineTermNC = { fg = c.light_grey, bg = c.bg_light },
