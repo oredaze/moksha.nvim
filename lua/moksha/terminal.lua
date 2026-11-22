@@ -4,7 +4,7 @@ local c = require 'moksha.colors'
 
 function M.setup()
     if not cfg.term_colors then return end
-    vim.g.terminal_color_0 = c.black
+    vim.g.terminal_color_0 = c.bg_light
     vim.g.terminal_color_1 = c.red
     vim.g.terminal_color_2 = c.green
     vim.g.terminal_color_3 = c.yellow

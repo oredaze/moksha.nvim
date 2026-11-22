@@ -24,18 +24,18 @@ hl.common = {
     Normal = { fg = c.fg, bg = c.bg_base },
     Terminal = { fg = c.fg, bg = c.bg_dark },
     EndOfBuffer = { fg = c.blue, bg = c.none },
-    SignColumn = { fg = c.fg, bg = c.none },
-    LineNr = { fg = c.grey, bg = c.none },
+    SignColumn = { fg = c.fg, bg = c.bg_medium },
+    LineNr = { fg = c.grey, bg = c.bg_medium },
     CursorLineNr = { fg = c.yellow, bg = c.none, fmt = "bold" },
     Folded = { fg = c.cream, bg = c.bg_medium },
     FoldColumn = { fg = c.cream, bg = c.bg_medium },
     ColorColumn = { bg = c.bg_red },
     Conceal = { fg = c.grey },
-    Cursor = { fmt = "reverse" },
-    vCursor = { fmt = "reverse" },
-    iCursor = { fmt = "reverse" },
-    lCursor = { fmt = "reverse" },
-    CursorIM = { fmt = "reverse" },
+    Cursor = { fg = c.red, fmt = "reverse" },
+    vCursor = { fg = c.red, fmt = "reverse" },
+    iCursor = { fg = c.red, fmt = "reverse" },
+    lCursor = { fg = c.red, fmt = "reverse" },
+    CursorIM = { fg = c.red, fmt = "reverse" },
     CursorColumn = { bg = c.bg_dark },
     CursorLine = { bg = c.bg_dark },
     ToolbarLine = { bg = c.grey },
@@ -402,7 +402,8 @@ hl.plugins.undotree = {
 
 hl.plugins.neotree = {
     NeoTreeExpander = { fg = c.grey },
-    NeoTreeRootName = { fg = c.brown }
+    NeoTreeRootName = { fg = c.brown },
+    NeoTreeCursorLine = hl.common.PmenuSel,
 }
 
 -- comment
@@ -454,7 +455,7 @@ hl.plugins.dashboard = {
 hl.plugins.mini = {
     MiniFilesBorder = hl.common.FloatBorder,
     MiniFilesBorderModified = hl.syntax.Number,
-    MiniFilesCursorLine = { fg = c.none, bg = c.select, fmt = "bold" },
+    MiniFilesCursorLine = hl.common.PmenuSel,
     MiniFilesDirectory = hl.common.Directory,
     MiniFilesFile = { fg = c.fg },
     MiniFilesNormal = hl.common.NormalFloat,
